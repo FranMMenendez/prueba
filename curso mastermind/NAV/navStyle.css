@@ -1,0 +1,60 @@
+header {
+    font-size: 25px;
+}
+
+body,div {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background:url("https://images7.alphacoders.com/992/thumb-1920-992404.jpg")
+}
+
+#top-bar{
+    background-color: #000;
+    padding: 12px;
+}
+
+#top-bar div {
+    font-size: 40px;
+    color: #fff;
+}
+
+#nav li {
+    list-style: none;
+    padding: 30px 40px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav i {
+    width: 30px;
+    color: #fff;
+}
+
+#nav {
+    background: linear-gradient(#000,#0000);
+    margin-top: -100%;
+}
+
+@keyframes aparecer {
+    0% {
+        margin-top: -100%;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
+
+@keyframes desaparecer {
+    0% {
+        margin-top: 0%;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
